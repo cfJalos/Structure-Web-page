@@ -1,10 +1,17 @@
-var firstName = prompt('What is your first name?');
-var lastName = prompt('What is your last name?');
-var age = prompt('What is your age?');
 
-console.log('Your full name is ' + firstName + " " + lastName);
+function robot()  {
 
-console.log('Your are ' + age + ' ' + 'years old');
+  var num = 0;
+  while(num !== 2){
+  num = parseInt(prompt("Are you a robot? if not 1 + 1"));
+  }
+  
+  console.log('Your answer is' + num);
+  
+}
+
+robot();
+
 
 var txt;
 
